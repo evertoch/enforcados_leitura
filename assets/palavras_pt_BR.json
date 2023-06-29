@@ -1,0 +1,317 @@
+[
+ {
+  "identificador": 1,
+  "palavra": "tigre",
+  "categoria": "animais",
+  "dica": "O maior felino do mundo",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 2,
+  "palavra": "leão",
+  "categoria": "animais",
+  "dica": "O rei da selva",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 3,
+  "palavra": "elefante",
+  "categoria": "animais",
+  "dica": "O maior animal terrestre",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 4,
+  "palavra": "girafa",
+  "categoria": "animais",
+  "dica": "Um animal com pescoço longo",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 5,
+  "palavra": "leopardo",
+  "categoria": "animais",
+  "dica": "Um felino com manchas",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 6,
+  "palavra": "tubarão",
+  "categoria": "animais",
+  "dica": "Um predador dos oceanos",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 7,
+  "palavra": "crocodilo",
+  "categoria": "animais",
+  "dica": "Um réptil semelhante a um jacaré",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 8,
+  "palavra": "gorila",
+  "categoria": "animais",
+  "dica": "Um grande primata",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 9,
+  "palavra": "rinoceronte",
+  "categoria": "animais",
+  "dica": "Um animal com um grande chifre",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 10,
+  "palavra": "canguru",
+  "categoria": "animais",
+  "dica": "Um marsupial saltador",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 11,
+  "palavra": "lobo",
+  "categoria": "animais",
+  "dica": "Um carnívoro que vive em matilhas",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 12,
+  "palavra": "águia",
+  "categoria": "animais",
+  "dica": "Uma ave de rapina com excelente visão",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 13,
+  "palavra": "baleia",
+  "categoria": "animais",
+  "dica": "Um mamífero marinho de grande porte",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 14,
+  "palavra": "tartaruga",
+  "categoria": "animais",
+  "dica": "Um réptil de casco duro",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 15,
+  "palavra": "coruja",
+  "categoria": "animais",
+  "dica": "Uma ave noturna de hábitos silenciosos",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 16,
+  "palavra": "brasília",
+  "categoria": "capitais de países",
+  "dica": "A capital do Brasil",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 17,
+  "palavra": "buenos aires",
+  "categoria": "capitais de países",
+  "dica": "A capital da Argentina",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 18,
+  "palavra": "santiago",
+  "categoria": "capitais de países",
+  "dica": "A capital do Chile",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 19,
+  "palavra": "bogotá",
+  "categoria": "capitais de países",
+  "dica": "A capital da Colômbia",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 20,
+  "palavra": "havana",
+  "categoria": "capitais de países",
+  "dica": "A capital de Cuba",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 21,
+  "palavra": "cairo",
+  "categoria": "capitais de países",
+  "dica": "A capital do Egito",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 22,
+  "palavra": "paris",
+  "categoria": "capitais de países",
+  "dica": "A capital da França",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 23,
+  "palavra": "atenas",
+  "categoria": "capitais de países",
+  "dica": "A capital da Grécia",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 24,
+  "palavra": "roma",
+  "categoria": "capitais de países",
+  "dica": "A capital da Itália",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 25,
+  "palavra": "tóquio",
+  "categoria": "capitais de países",
+  "dica": "A capital do Japão",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 26,
+  "palavra": "moscou",
+  "categoria": "capitais de países",
+  "dica": "A capital da Rússia",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 27,
+  "palavra": "pretória",
+  "categoria": "capitais de países",
+  "dica": "A capital da África do Sul",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 28,
+  "palavra": "ancara",
+  "categoria": "capitais de países",
+  "dica": "A capital da Turquia",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 29,
+  "palavra": "londres",
+  "categoria": "capitais de países",
+  "dica": "A capital do Reino Unido",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 30,
+  "palavra": "washington, d.c.",
+  "categoria": "capitais de países",
+  "dica": "A capital dos Estados Unidos da América",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 31,
+  "palavra": "televisão",
+  "categoria": "objetos",
+  "dica": "Um aparelho eletrônico usado para assistir programas",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 32,
+  "palavra": "geladeira",
+  "categoria": "objetos",
+  "dica": "Um eletrodoméstico usado para manter os alimentos refrigerados",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 33,
+  "palavra": "computador",
+  "categoria": "objetos",
+  "dica": "Um dispositivo eletrônico usado para processar informações",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 34,
+  "palavra": "cadeira",
+  "categoria": "objetos",
+  "dica": "Um móvel usado para sentar",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 35,
+  "palavra": "bicicleta",
+  "categoria": "objetos",
+  "dica": "Um veículo de duas rodas movido por pedal",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 36,
+  "palavra": "livro",
+  "categoria": "objetos",
+  "dica": "Uma coleção de páginas com texto impresso",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 37,
+  "palavra": "garrafa",
+  "categoria": "objetos",
+  "dica": "Um recipiente usado para armazenar líquidos",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 38,
+  "palavra": "relógio",
+  "categoria": "objetos",
+  "dica": "Um dispositivo usado para medir o tempo",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 39,
+  "palavra": "óculos",
+  "categoria": "objetos",
+  "dica": "Um acessório usado para melhorar a visão",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 40,
+  "palavra": "chave",
+  "categoria": "objetos",
+  "dica": "Um objeto usado para abrir ou fechar algo",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 41,
+  "palavra": "celular",
+  "categoria": "objetos",
+  "dica": "Um dispositivo eletrônico usado para comunicação",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 42,
+  "palavra": "mesa",
+  "categoria": "objetos",
+  "dica": "Um móvel usado para apoiar objetos",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 43,
+  "palavra": "carro",
+  "categoria": "objetos",
+  "dica": "Um veículo motorizado usado para transporte",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 44,
+  "palavra": "caneta",
+  "categoria": "objetos",
+  "dica": "Um instrumento de escrita",
+  "idioma": "pt-br"
+ },
+ {
+  "identificador": 45,
+  "palavra": "tesoura",
+  "categoria": "objetos",
+  "dica": "Uma ferramenta usada para cortar",
+  "idioma": "pt-br"
+ }
+]
