@@ -8,17 +8,19 @@ import 'package:flutter/material.dart';
 
 abstract class IGameController {
   void novaPalavra() {}
-  iniciarJogo() {}
+  void _iniciarJogo() {}
   testarEntrada(String letra) {}
   replaceTiras({required String letra}) {}
   gameIsWinner() {}
   lostLife({required int vida}) {}
+  String get tiras;
 }
 
 class GameController extends IGameController {
-  List<String> banco = wordData; //palavra do banco do dados
+  late List<dynamic> banco; //palavra do banco do dados
   Random random = Random();
   late String palavraSorteada;
+  late String categoria;
   late String _tiras;
   int _vidas = 0;
   List<String> _g = [];
@@ -28,12 +30,32 @@ class GameController extends IGameController {
 
   final List<String> entries = alfabeto;
 
+  Future<void> initialize() async {
+    // define a linguagem
+    final String lang = Platform.localeName;
+    // lê o conteúdo do arquivo
+    var jsonContent = await rootBundle.loadString("assets/palavras_$lang.json");
+    // converte em lista de palavras
+    banco = json.decode(jsonContent);
+    _iniciarJogo();
+  }
+
   @override
-  String iniciarJogo() {
-    palavraSorteada = banco[random.nextInt(banco.length - 1)];
+  void _iniciarJogo() {
+    // aqui pegou a palavra da lista
+    // pra pegar a dica ou categoria pode fazer assim:
+    // banco[random.nextInt(banco.length - 1)]["categoria"];
+    // banco[random.nextInt(banco.length - 1)]["dica"];
+    int pos = Random().nextInt(banco.length);
+    palavraSorteada = banco[pos]["palavra"];
+    categoria = banco[pos]["categoria"];
+    //print(categoria);
     _tiras = novaPalavra();
     _vidas = 5;
     _g.clear();
+  }
+
+  String get tiras {
     return _tiras;
   }
 
@@ -56,6 +78,11 @@ class GameController extends IGameController {
 
           debugPrint(_g.toString());
           resultado = true;
+        } else if (letra.replaceAll('a', 'á') == palavraSorteada[k]) {
+          _g.add(letra.replaceAll('a', 'á'));
+
+          debugPrint(_g.toString());
+          resultado = true;
         } else if (letra.replaceAll('e', 'ê') == palavraSorteada[k]) {
           _g.add(letra.replaceAll('e', 'ê'));
 
@@ -63,6 +90,31 @@ class GameController extends IGameController {
           resultado = true;
         } else if (letra.replaceAll('e', 'é') == palavraSorteada[k]) {
           _g.add(letra.replaceAll('e', 'é'));
+
+          debugPrint(_g.toString());
+          resultado = true;
+        } else if (letra.replaceAll('i', 'í') == palavraSorteada[k]) {
+          _g.add(letra.replaceAll('i', 'í'));
+
+          debugPrint(_g.toString());
+          resultado = true;
+        } else if (letra.replaceAll('o', 'ó') == palavraSorteada[k]) {
+          _g.add(letra.replaceAll('o', 'ó'));
+
+          debugPrint(_g.toString());
+          resultado = true;
+        } else if (letra.replaceAll('o', 'ô') == palavraSorteada[k]) {
+          _g.add(letra.replaceAll('o', 'ô'));
+
+          debugPrint(_g.toString());
+          resultado = true;
+        } else if (letra.replaceAll('o', 'õ') == palavraSorteada[k]) {
+          _g.add(letra.replaceAll('o', 'õ'));
+
+          debugPrint(_g.toString());
+          resultado = true;
+        } else if (letra.replaceAll('u', 'ú') == palavraSorteada[k]) {
+          _g.add(letra.replaceAll('u', 'ú'));
 
           debugPrint(_g.toString());
           resultado = true;

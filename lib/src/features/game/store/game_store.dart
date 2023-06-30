@@ -1,6 +1,5 @@
 import 'dart:developer';
 
-import '../../../shared/utils/constants.dart';
 import '../game_controller.dart';
 import 'package:mobx/mobx.dart';
 
@@ -12,10 +11,11 @@ class GameStore = _GameStore with _$GameStore;
 abstract class _GameStore with Store {
   GameController gameController = GameController();
 
-  Constants constants = Constants();
-
   @observable
   String palavraSorteada = '';
+
+  @observable
+  String categoria = '';
 
   @observable
   String tiras = '';
@@ -30,8 +30,7 @@ abstract class _GameStore with Store {
   bool winner = false;
 
   @action
-  void startGame() {
-    Constants.readJson();
+  void startGame() async {
     status.clear();
     status.addAll([
       false,
@@ -63,7 +62,11 @@ abstract class _GameStore with Store {
     ]);
     tiras = '';
     gameController = GameController();
-    tiras = gameController.iniciarJogo();
+    // inicializa o json e o jogo
+    await gameController.initialize();
+    categoria = gameController.categoria;
+    print(gameController.categoria);
+    tiras = gameController.tiras;
     life = 5;
     log('Start Game');
     palavraSorteada = gameController.palavraSorteada;

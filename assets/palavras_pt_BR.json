@@ -113,9 +113,9 @@
  },
  {
   "identificador": 17,
-  "palavra": "buenos aires",
+  "palavra": "lisboa",
   "categoria": "capitais de países",
-  "dica": "A capital da Argentina",
+  "dica": "A capital de Portugal",
   "idioma": "pt-br"
  },
  {
@@ -204,9 +204,9 @@
  },
  {
   "identificador": 30,
-  "palavra": "washington, d.c.",
+  "palavra": "berlim",
   "categoria": "capitais de países",
-  "dica": "A capital dos Estados Unidos da América",
+  "dica": "A capital da Alemanha",
   "idioma": "pt-br"
  },
  {

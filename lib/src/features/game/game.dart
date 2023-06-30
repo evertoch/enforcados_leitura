@@ -6,7 +6,7 @@ import 'store/game_store.dart';
 import 'components/teclas.dart';
 import 'components/hearts.dart';
 import 'components/texto.dart';
-//utils
+import 'components/categoria.dart'; // Importa a classe Categoria
 
 class GamePage extends StatefulWidget {
   const GamePage({Key? key}) : super(key: key);
@@ -41,6 +41,7 @@ class _GamePageState extends State<GamePage> {
           children: <Widget>[
             const Hearts(),
             AppBar(
+              actions: [],
               backgroundColor:
                   Colors.transparent, // Torna a barra de navegação transparente
               elevation: 0,
@@ -52,6 +53,7 @@ class _GamePageState extends State<GamePage> {
                 Texto(),
               ],
             ),
+            const Categoria(), // Adiciona a chamada da classe Categoria
             const Teclas(),
           ],
         ),
